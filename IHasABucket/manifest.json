@@ -1,0 +1,16 @@
+{
+  "name": "I HAS A BUCKET",
+  "version": "1.0",
+  "manifest_version" : 2,
+  "description": "U can guess what it does",
+  "icons": {
+    "96":"icons/IHasABucketIcon.png"
+  },
+  "background" : {
+    "scripts" : ["backgroundScripts/background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icons/IHasABucketIcon.png"
+  },
+  "permissions": ["activeTab"]
+}
